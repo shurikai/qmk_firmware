@@ -4,7 +4,9 @@
 #    define LAYOUT KEYMAP
 #endif
 
-#define LAYOUT_wrapper(...)   LAYOUT(__VA_ARGS__)
+#define LAYOUT_wrapper(...)          LAYOUT(__VA_ARGS__)
+#define LAYOUT_reviung_wrapper(...)  LAYOUT_reviung39(__VA_ARGS__)
+#define LAYOUT_microdox_wrapper(...) LAYOUT_split_3x5_3(__VA_ARGS__)
 
 /*
  * My standard keymap is based on a 34-key split ortho board. This includes 5 columns and 2 thumb

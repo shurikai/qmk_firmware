@@ -11,7 +11,8 @@ enum userspace_layers {
     _LSYMBOL,
     _NUMBER,
     _FUNCTION,
-    _ADJUST
+    _ADJUST,
+    _RBG
 };
 
 enum userspace_keycodes {
@@ -22,7 +23,8 @@ enum userspace_keycodes {
     LSYMBOL,
     NUMBER,
     FUNCTION,
-    ADJUST
+    ADJUST,
+    RGB
 };
 
 /*
@@ -40,13 +42,14 @@ enum userspace_keycodes {
 /*
  * Layer-taps.
  */
-#define KC_LTNV LT(_NAV,KC_D)
-#define KC_LTMS LT(_MOUSE,KC_K)
-#define KC_LTRS LT(_RSYMBOL,KC_F)
-#define KC_LTLS LT(_LSYMBOL,KC_J)
-#define KC_LTNM LT(_NUMBER,KC_S)
-#define KC_LTFN LT(_FUNCTION,KC_L)
-#define KC_LTAD LT(_ADJUST,KC_SPC)
+#define LT_NAV  LT(_NAV,KC_D)
+#define LT_MSE  LT(_MOUSE,KC_K)
+#define LT_RSYM LT(_RSYMBOL,KC_F)
+#define LT_LSYM LT(_LSYMBOL,KC_J)
+#define LT_NUM  LT(_NUMBER,KC_S)
+#define LT_FUNC LT(_FUNCTION,KC_L)
+#define LT_ADJ  LT(_ADJUST,KC_SPC)
+#define LT_RGB  LT(_RGB, KC_ENT)
 
 /*
  * Common key combos used in multiple keymaps.

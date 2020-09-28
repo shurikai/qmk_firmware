@@ -12,7 +12,7 @@ enum userspace_layers {
     _NUMBER,
     _FUNCTION,
     _ADJUST,
-    _RBG
+    _RGB_CONTROL
 };
 
 enum userspace_keycodes {
@@ -49,7 +49,7 @@ enum userspace_keycodes {
 #define LT_NUM  LT(_NUMBER,KC_S)
 #define LT_FUNC LT(_FUNCTION,KC_L)
 #define LT_ADJ  LT(_ADJUST,KC_SPC)
-#define LT_RGB  LT(_RGB, KC_ENT)
+#define LT_RGB  LT(_RGB_CONTROL, KC_ENT)
 
 /*
  * Common key combos used in multiple keymaps.

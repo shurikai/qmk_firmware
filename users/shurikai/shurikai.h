@@ -24,7 +24,7 @@ enum userspace_keycodes {
     NUMBER,
     FUNCTION,
     ADJUST,
-    RGB
+    RGB_CONTROL
 };
 
 /*

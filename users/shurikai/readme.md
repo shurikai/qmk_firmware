@@ -1,4 +1,4 @@
-Copyright 2020 Jason Chestnut <jason.chestnut@gmail.com>
+Copyright 2020 Jason Chestnut <jason.chestnut@gmail.com> @shurikai
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by

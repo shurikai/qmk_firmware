@@ -23,7 +23,9 @@
 #define LAYOUT_wrapper(...)          LAYOUT(__VA_ARGS__)
 #define LAYOUT_reviung_wrapper(...)  LAYOUT_reviung39(__VA_ARGS__)
 #define LAYOUT_microdox_wrapper(...) LAYOUT_split_3x5_3(__VA_ARGS__)
+#define LAYOUT_corne_wrapper(...)    LAYOUT_split_3x6_3(__VA_ARGS__)
 #define LAYOUT_preonic_wrapper(...)  LAYOUT_preonic_grid(__VA_ARGS__)
+#define LAYOUT_niumini_wrapper(...)  LAYOUT_ortho_4x12(__VA_ARGS__)
 
 /*
  * My standard keymap is based on a 34-key split ortho board. This includes 5 columns and 2 thumb
@@ -53,7 +55,7 @@
 #define _________________BASE_R1___________________    KC_Y,     KC_U,    KC_I,     KC_O,     KC_P
 #define _________________BASE_R2___________________    KC_H,     LT_LSYM, LT_MSE,   LT_FUNC,  KC_SFTCLN
 #define _________________BASE_R3___________________    KC_N,     KC_M,    KC_ALTCM, KC_CTLDT, KC_GUISL
-#define ____BASE_RT_____                               LT_ADJ,   KC_ENT
+#define ____BASE_RT_____                               LT_ADJ,   LT_RGB
 
 /* Navigation
  * ,----------------------------------+    +----------------------------------.

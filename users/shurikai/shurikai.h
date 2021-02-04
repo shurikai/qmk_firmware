@@ -68,16 +68,24 @@ enum userspace_keycodes {
 #define LT_RGB  LT(_RGB_CONTROL, KC_ENT)
 
 /*
+ * Key shortcuts.
+ */
+#define DT_NXT LCTL(KC_RGHT)
+#define DT_PRV LCTL(KC_LEFT)
+
+/*
  * Common key combos used in multiple keymaps.
  */
 
+#ifdef COMBO_ENABLE 
 enum combos {
     ESC_COMBO
 };
 
-const uint16_t PROGMEM esc_combo [] = {KC_TAB, KC_ENT, COMBO_END};
+const uint16_t PROGMEM esc_combo [] = {KC_Q, KC_W, COMBO_END};
 
 combo_t key_combos[COMBO_COUNT] = {
     [ESC_COMBO] = COMBO(esc_combo, KC_ESC)
 };
+#endif
 
